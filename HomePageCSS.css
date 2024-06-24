@@ -15,40 +15,33 @@ body {
 .section-padding {
     padding: 100px 0;
 }
-
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-}
-
-.carousel-caption {
-    bottom: 220px;
-    z-index: 2;
-    color: #fff;
-}
-
-.carousel-caption h5 {
-    font-size: 30px;
-    margin-top: 25px;
-}
-
-.carousel-caption p {
-    font-size: 22px;
-}
-
-.carousel-inner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-}
-
-.btn-primary{
+ul{
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+}
+
+.listofservice {
+    margin-top: 50px;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding: 10px 0;
+    
+}
+.mycarousel-item{
+    background-color: #ffffff;
+    font-weight: 500;
+    color: #1F4AA0;
+    border-color: #1F4AA0;
+    border-radius: 8px;
+    border-width: 0.5px;
+    width: 150px;
+    height: 50px;
+    margin: 3px;
 }
 
 .navbar-nav{
@@ -102,9 +95,10 @@ body {
 }
 
 .row{
+    width: 1200px;
     display: flex;
-    flex-direction: row-reverse;
 }
+
 .card{
     background-color: #ffffff;
     box-shadow: 3px 3px 3px 3px #e0e0e0;
