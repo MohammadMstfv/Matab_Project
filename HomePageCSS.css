@@ -91,6 +91,11 @@ body {
     justify-content: flex-start;
     
 }
+.mycarousel{
+    box-direction: ltr;
+    display: flex;
+    flex-direction: row;
+}
 
 .row{
     display: flex;
