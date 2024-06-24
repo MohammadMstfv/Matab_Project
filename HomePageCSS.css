@@ -91,6 +91,10 @@ body {
     justify-content: flex-start;
     
 }
+.swiper {
+    width: 1000px;
+    height: 100px;
+  }
 .mycarousel{
     box-direction: ltr;
     display: flex;
