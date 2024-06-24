@@ -1,6 +1,7 @@
 
 * {
     font-family: "Vazirmatn";
+    border-radius: 8px;
 }
 
 h3,h2{
@@ -68,17 +69,40 @@ body {
     display: flex;
     order: 2;
 }
+.chert h1{
+    font-weight: bold;
+}
+.Matn-Vasat{
+    direction: rtl;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 250px;
+    margin-bottom: 25px;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    
+}
+
 .row{
-    margin-top: 70px;
     display: flex;
     flex-direction: row-reverse;
 }
 .card{
     background-color: #ffffff;
-    box-shadow: 5px 5px #e0e0e0;
+    box-shadow: 3px 3px 3px 3px #e0e0e0;
     height: 300px;
     direction: rtl;
-    border-radius: 16px;
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
 .card-body{
     display: flex;
