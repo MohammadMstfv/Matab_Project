@@ -20,15 +20,22 @@ ul{
     display: flex;
     flex-direction: row;
 }
+.mycarousel{
+    box-direction: ltr;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
 
 .listofservice {
+    direction: rtl;
     margin-top: 50px;
     width: 1200px;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:flex-start;
+    align-items:center;
     padding: 10px 0;
     
 }
@@ -62,9 +69,7 @@ ul{
     display: flex;
     order: 2;
 }
-.chert h1{
-    font-weight: bold;
-}
+
 .Matn-Vasat{
     direction: rtl;
     margin-left: 20%;
@@ -84,21 +89,13 @@ ul{
     justify-content: flex-start;
     
 }
-.swiper {
-    width: 1000px;
-    height: 100px;
-  }
-.mycarousel{
-    box-direction: ltr;
-    display: flex;
-    flex-direction: row;
-}
+
 
 .row{
-    width: 1200px;
+    width: 1300px;
     display: flex;
+    direction: rtl;
 }
-
 .card{
     background-color: #ffffff;
     box-shadow: 3px 3px 3px 3px #e0e0e0;
@@ -125,7 +122,95 @@ ul{
 .w-100 {
     height: 100vh;
 }
+.myswipes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.matn-swipe{
+    width: 1750px;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.swiper{
+    direction: rtl;
+    width: 1000px;
+    height: 400px;
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.swiper-container{
+    width: 1000px;
+    height: 400px;
+}
 
+.mySwiper{
+    width: 1000px;
+    height: 450px;
+}
+
+.pictured-card{
+    background-color: #F7F7F7;
+    box-shadow: 3px 3px #e0e0e0;
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #1F4AA0;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    width: 75px;
+    height: 45px;
+}
+
+.pictured-card-body{
+    padding: 5%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-stuff{
+    color: rgb(117, 117, 117);
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.footer{
+    display: block;
+    padding: 150px 25px 50px 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
 @media only screen and (min-width:767px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 350px;
