@@ -401,16 +401,16 @@ ul{
     margin-left: 50px;
     margin-right:50px;
     width:60%;
-    height: 1000px;
+    height: 1700px;
 }
 .column-farE{
     margin-left: 50px;
     margin-right:50px;
     width:40%;
-    height:1000px;
+    height:1700x;
 }
 .pictured-card{
-    background-color: #F7F7F7;
+    background-color: #ffff;
     box-shadow: 3px 3px #e0e0e0;
     margin: 5px;
     width: 500px;
@@ -421,7 +421,7 @@ ul{
     justify-content: center;
 }
 .pictured-card2{
-    background-color: #F7F7F7;
+    background-color: #ffffff;
     box-shadow: 3px 3px #e0e0e0;
     width: 800px;
     height: 400px;
