@@ -193,8 +193,6 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-
 }
 
 .comments-section{
@@ -311,10 +309,7 @@ ul{
     flex-direction: row;
     justify-content: space-around;
 }
-.form-control{
-    width: 50px;
-    height: 50px;
-}
+
 @media only screen and (min-width:767px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 350px;
@@ -350,4 +345,79 @@ ul{
 .about-text{
     direction: rtl;
     text-align: right;
+}
+
+
+/*zanan zaiman*/
+
+
+.huge-matn{
+    direction: rtl;
+    background-color: #ffffff;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.all-items{
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+}
+.doctor-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-status{
+    font-size: 14px;
+    display: flex;
+    background-color: #F7F7F7;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.filter-section {
+    height: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 16px;
+    background-color: #fff;
+    text-align: right;
+}
+.filter-section h5 {
+    direction: rtl; 
+    text-align: right;
+}
+
+.swipe-counter{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    direction: rtl;
+    background-color: #ffffff;
+    margin:20px;
+    padding: 30px;
+}
+.cardbtnlist{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+}
+.cardbtn{
+    margin: 5px;
+    width: 70%;
+    height: 60px;
+    background-color: #ffffff;
+    border-color: #1F4AA0;
+    border-radius: 8px;
+    text-align: right;
+    font-weight: 500;
 }

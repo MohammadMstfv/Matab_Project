@@ -20,6 +20,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
+                <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
 
                 <div class="search-bar">
                     <form id="form">
@@ -34,8 +35,7 @@
                     <img src="Asset 2-8.png" alt="لوگو مطب" style="width:166px;height:89px;">
                 </a>
                 <a href="#login">
-                    <button class="btn" data-bs-toggle="modal" data-bs-target="#userLoginModal"
-                        style="background-color: #1F4AA0; color: #ffffff; border: none; text-decoration: none; width: 75px; height: 45px;">ورود</button>
+                                    
                 </a>
     
                 <!--<li>
@@ -76,6 +76,240 @@
                 </div>
             </div>
         </nav>
+
+        <div class="huge-matn">
+                <h2>مشاهده لیست دکتر زنان و زایمان ؛ نوبت متخصص زنان از پزشکان برتر</h2>
+        </div>
+
+        <div class="all-items">
+            <div class="col-md-3 mb-3">
+                <div class="filter-section">
+                    <h5><i class='bx bx-filter' style='margin-left: 5px; font-size: 1.2em'></i>فیلترها</h5>
+                                    <div class="form-group mt-3">
+                        <label for="specialization">تخصص و فوق تخصص</label>
+                        <select class="form-control" id="specialization" style="font-size: 0.8rem;">
+                            <option> <h6>تخصص مورد نظر را انتخاب کنید</h6></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">خدمات</label>
+                        <select class="form-control" id="service" style="font-size: 0.8rem;">
+                            <option>خدمت مورد نظر را انتخاب کنید</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">شهر</label>
+                        <select class="form-control" id="city" style="font-size: 0.8rem;">
+                            <option>شهر</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="area">محله</label>
+                        <select class="form-control" id="area" style="font-size: 0.8rem;">
+                            <option>محله</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="insurance">بیمه</label>
+                        <select class="form-control" id="insurance" style="font-size: 0.8rem;">
+                            <option>بیمه مورد نظر را انتخاب کنید</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>جنسیت پزشک</label>
+                        <div class="d-flex justify-content-between">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor-gender" id="both" checked>
+                                <label class="form-check-label mr-3 mb-1" for="both">خانم و آقا</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor-gender" id="male">
+                                <label class="form-check-label mr-3 mb-1" for="male">آقا</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor-gender" id="female">
+                                <label class="form-check-label mr-3 mb-1" for="female">خانم</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="available-doctors">
+                        <label class="form-check-label mr-3 mb-1" for="available-doctors">فقط پزشکان دارای نوبت باز</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="doctor-cards">
+
+                
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <a href="DoctorPage.html"><button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictured-card">
+                    <div class="pictured-card-body">
+                        <i class='bx bxs-user-rectangle' style="color: #1F4AA0; font-size: 75px;"></i>
+                        <h5 class="card-title">دکتر آنا ایمانی اقدم</h5>
+                        <p>کارشناسی ارشد روانشناسی عمومی</p>
+                        <p style="color: #828282;"><i class='bx bxs-location-plus' style="color: #828282; font-size: 20px;"></i>یزد،بلوار طالقانی،کوچه هدایتی</p>
+                        <div class="card-status">
+                            <p style="padding: 10px">نوبت دهی حضوری: دارد</p>
+                            <p style="padding: 10px">مشاوره تلفنی: دارد</p>
+                        </div>
+                        <div class="card-stuff">
+                            <div>
+                                <p style="font-size: x-small; font-weight: 300;">اولین نوبت خالی
+                                    <br><span style="font-size: x-small; font-weight: 600;">شنبه 15 مهر</span>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button class="btn" style="width: 150px; height: 30px; font-size: small;" href="#">شروع مشاوره</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swipe-counter">
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#"><i class='bx bx-chevron-right 'style="color: #1F4AA0;"></i>قبلی</a>
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#">1</a>
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#">2</a>
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#">3</a>
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#">4</a>
+                    <a style="text-decoration: none; color: #1F4AA0;" href="#">بعدی<i class='bx bx-chevron-left ' style="color: #1F4AA0;"></i></a>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="huge-matn" style="margin: 20px;">
+            <h2>دکتر زنان و زایمان کیست؟</h2>
+            <p>تشخیص و درمان اختلالات سیستم تولید مثل زنان، مشاوره جنسی و بارداری، تخصص دکتر زنان و زایمان
+                <br> است. از مهم‌ترین وظایف دکتر زنان می‌توان به مراقبت‌های پیش و بعد از زایمان، مراقبت‌های پس
+                <br> از زایمان، مدیریت درد زایمان و مشاوره باروری اشاره کرد.
+            </p>
+        </div>
+        <div class="huge-matn" style="margin: 20px;">
+            <h2>سوالات متداول</h2>
+            <div class="cardbtnlist">
+                <button class="cardbtn">چطور بفهمیم یک متخصص زنان خوب است؟</button>
+                <button class="cardbtn">از کجا بدانیم دکتر زنان بیمه ما را قبول می‌کند؟</button>
+                <button class="cardbtn">چطور آدرس یک دکتر زنان خاص را در دکتردکتر جستجو کنم؟</button>
+                <button class="cardbtn">چطور می‌توانم زودترین زمان برای گرفتن نوبت حضوری با پزشک زنان را پیدا کنم؟</button>
+                <button class="cardbtn">از کجا می‌توانم روزهای کاری متخصص زنان و زایمان را ببینم؟</button>
+            </div>
+        </div>
 
 
 
