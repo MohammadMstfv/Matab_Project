@@ -569,3 +569,16 @@ ul{
 
 
 /*Personal Data*/
+
+.moraje{
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
