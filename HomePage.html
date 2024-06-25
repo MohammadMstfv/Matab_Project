@@ -25,7 +25,7 @@
                 <img src="Asset 2-8.png" alt="لوگو مطب" style="width:166px;height:89px;">
             </a>
             <a href="#login">
-                <button class="btn"
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#userLoginModal"
                     style="background-color: #1F4AA0; color: #ffffff; border: none; text-decoration: none; width: 75px; height: 45px;">ورود</button>
             </a>
 
@@ -67,6 +67,58 @@
             </div>
         </div>
     </nav>
+
+    <!-- User Login Modal -->
+    <div class="modal fade" id="userLoginModal" tabindex="-1" aria-labelledby="userLoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-logo">
+                    <img src="Asset 2-8.png" alt="لوگو مطب" style="width:166px;height:89px;">
+                </div>
+                <div class="modal-body">
+                    <h3 class="modal-title" id="userLoginModalLabel" style="color: #1F4AA0; font-weight: 800; font-size: 18px; :hover{color: #5DCFE2;}">ورود به حساب کاربری</h3>
+                    <p>برای استفاده از خدمات مطب ، شماره موبایل خود را وارد کنید.
+                        <br>
+                        <br>
+                        شماره موبایل:
+                    </p>
+                    <div class="mb-3 input-group">
+                        <input id="phoneNumberInput" type="text" class="form-control" placeholder="09*********">
+                    </div>
+                </div>
+                <div class="modal-btn">
+                    <button id="sendCodeBtn" type="button" class="btn" style="width: 380px;" data-bs-toggle="modal" data-bs-target="#checkCodeModal">ارسال کد تایید</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /User Login Modal -->
+
+    <!-- Verification Code Modal -->
+    <div class="modal fade" id="checkCodeModal" tabindex="-1" aria-labelledby="checkCodeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-logo">
+                    <img src="Asset 2-8.png" alt="لوگو مطب" style="width:166px;height:89px;">
+                </div>
+                <div class="modal-body">
+                    <h3 class="modal-title" id="userLoginModalLabel" style="color: #1F4AA0; font-weight: 800; font-size: 18px; :hover{color: #5DCFE2;}">دریافت کد تایید</h3>
+                    <p>لطفا کد ارسال شده به شماره موبایل *********09 را وارد کنید</p>
+                    <div class="code-check">
+                        <input type="text" id="verificationCodeInput" class="form-control">
+                        <input type="text" id="verificationCodeInput" class="form-control">
+                        <input type="text" id="verificationCodeInput" class="form-control">
+                        <input type="text" id="verificationCodeInput" class="form-control">
+                        
+                    </div>
+                </div>
+                <div class="modal-btn">
+                    <button id="submitCodeBtn" type="button" class="btn" style="width: 380px;"">ورود به حساب</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Verification Code Modal -->
 
     <div class="Matn-Vasat">
         <div class="chert">
@@ -530,6 +582,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="submitcode.js"></script>
     <script src="Swiper.Js"></script>
 </body>
 

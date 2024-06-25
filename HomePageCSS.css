@@ -294,6 +294,33 @@ ul{
     text-decoration: none;
     display: flex;
 }
+.modal{
+}
+.modal-logo{
+}
+.modal-content{
+    width: 450px;
+    height: 450px;
+    padding: 5%;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form-control{
+    width: 50px;
+    height: 50px;
+}
+.modal-btn{
+
+}
 @media only screen and (min-width:767px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 350px;
