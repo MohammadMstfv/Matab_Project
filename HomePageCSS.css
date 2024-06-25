@@ -197,6 +197,29 @@ ul{
 
 }
 
+.comments-section{
+    padding: 50px;
+    width: 1450px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.comment{
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 250px;
+    border-width: 5px;
+    border-color: #1F4AA0;
+    padding: 10px;
+
+}
+
 .tablighatapp{
     direction: rtl;
     background-color: rgba(31, 74, 160, 0.13);
